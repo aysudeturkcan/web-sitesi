@@ -1,17 +1,33 @@
-# Basit HTML ve CSS Ön Yüz
+# 🌐 Web Sitesi Projesi
 
-Bu proje, HTML ve CSS kullanılarak hazırlanmış basit bir web sitesi ön yüz tasarımıdır. Web geliştirmeye yeni başlayanlar için temel bir örnek niteliğindedir.
+Bu proje, HTML ve CSS kullanılarak hazırlanmış basit bir web sitesi ön yüzüdür.  
+Amaç: temel web geliştirme becerilerini göstermek ve GitHub Pages ile canlı olarak yayınlamaktır.
 
-## 🚀 Özellikler
-- Temel HTML yapısı
-- CSS ile sade bir tasarım
-- Başlangıç seviyesi proje örneği
+---
 
-## 📁 Dosya Yapısı
-## 💻 Nasıl Çalıştırılır?
-1. Bu projeyi bilgisayarınıza indirin:
-2.  Proje klasörünü açın  
-3. `index.html` dosyasını tarayıcıda açın
+## 🔗 Canlı Demo
+Aşağıdaki link üzerinden siteyi görüntüleyebilirsiniz:
 
-## 📄 Lisans
-Bu proje açık kaynaklıdır.
+➡️ **https://aysudeturkcan.github.io/web-sitesi/**  
+
+---
+
+## 📁 Proje Yapısı
+- **index.html** → Ana sayfa
+- **style.css** → Tasarım stilleri
+- **README.md** → Proje açıklaması
+
+---
+
+## 🛠️ Kullanılan Teknolojiler
+
+- **HTML5**
+- **CSS3**
+  
+---
+
+## 👀 Ekran Görüntüsü
+
+
+
+
