@@ -1,0 +1,108 @@
+@import url(<link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+);
+
+* {
+    margin: 0;
+    padding: 0;/*sola doğru hizalama yapıyor*/
+}
+.container {
+    background: url(Copilot_20251124_150610.png);
+    height: 100vh;
+    background-size: 100% 100%;
+}
+
+.container .navbar{
+    width: 100%;
+    height: 80px;
+    background: rgba(34, 49, 34, 0.9);
+}
+
+.navbar .logo{
+    display: inline-block ;/*bunu yazmazsak diğerleri etki etmiyor*/
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.navbar .logo a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family:sans-serif;
+    color: #f3f3f3;
+}
+
+.navbar ul{
+    float: right;
+    margin-right:20px ;
+}
+
+.navbar ul li{
+    list-style: none;/*etiketlerin başındaki noktalar gitti*/
+    display:inline-block;
+    margin:0 8px;/*aralarını açıyor*/
+    line-height:80px;
+}
+
+.navbar ul li a{
+    color: white;
+    text-decoration:none;/*altındaki çizgiler kalkıyor*/
+    font-siz:20px;
+    padding:6px 13px;
+    font-family:Roboto; 
+    transition:.5s;
+}
+
+.navbar ul li active,
+.navbar ul li a:hover{
+    background:#ff6e00;
+    border-radius:2px;
+}
+
+.container .center{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    /*bu hoşgeldiniz kısmını ortalamamızı sağladı*/
+  font-family: 'Lora', serif;
+    /*font-family:sans-serif;/*yazı stili*/
+    user-select:none;/*yazı seçilemiyor*/
+}
+
+.center h1{
+    color:#B8860B;
+    font-size:70px;
+    font-weight:bold;/*yazı kalınlığı*/
+    widht:900px;
+    text-align:center;
+}
+.center h2 {
+    color:#B8860B;
+    font-size:50px;
+    font-weight:bold;
+    width:885px;
+    margin-top:10px;
+    text-align:center;
+
+}
+
+.center .buttons{
+    margin:35px 280px;
+}
+
+.buttons button{
+    height:50px;
+    widht:150px;
+    font-size:18px;
+    font-weight:bold;
+    color:#f5f5dc;
+    background:rgb(139, 69, 19, 1);
+    border:solid 1px brown ;
+    cursor:pointer;/*imleç geliyor*/
+    outline:none;
+    border-radius:25px;
+    transition:.5s;
+}
+
+.buttons button:hover{
+    background:#fff;
+}
