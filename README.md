@@ -27,7 +27,8 @@ Aşağıdaki link üzerinden siteyi görüntüleyebilirsiniz:
 ---
 
 ## 👀 Ekran Görüntüsü
-
+![ Site Görüntüsü]
+(https://github.com/aysudeturkcan/web-sitesi/blob/main/görsel_2025-12-12_140439391.png)
 
 
 
